@@ -13,7 +13,7 @@ https://github.com/riscv/riscv-v-spec/blob/e49574c92b072fd4d71e6cb20f7e8154de5b8
 ## Solution is implemented in Verilog			
 			
 			
-Address	Instructions	Opcode
+Address | Instructions | Opcode
 .  
 000_0	ADDI R5,R5,10	0x00A28293
 .  
