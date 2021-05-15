@@ -1,0 +1,429 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="var_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="var" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0fs"></ZoomStartTime>
+      <ZoomEndTime time="260000fs"></ZoomEndTime>
+      <Cursor1Time time="255000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="391"></NameColumnWidth>
+      <ValueColumnWidth column_width="81"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="35" />
+   <wvobject fp_name="/var/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/var/pc" type="array">
+      <obj_property name="ElementShortName">pc[5:0]</obj_property>
+      <obj_property name="ObjectShortName">pc[5:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/var/IQ_busy" type="logic">
+      <obj_property name="ElementShortName">IQ_busy</obj_property>
+      <obj_property name="ObjectShortName">IQ_busy</obj_property>
+   </wvobject>
+   <wvobject fp_name="/var/IQ" type="array">
+      <obj_property name="ElementShortName">IQ[0:11][31:0]</obj_property>
+      <obj_property name="ObjectShortName">IQ[0:11][31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/var/IQ_tail" type="array">
+      <obj_property name="ElementShortName">IQ_tail[3:0]</obj_property>
+      <obj_property name="ObjectShortName">IQ_tail[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/var/IQ_head" type="array">
+      <obj_property name="ElementShortName">IQ_head[3:0]</obj_property>
+      <obj_property name="ObjectShortName">IQ_head[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/var/IQ_count" type="array">
+      <obj_property name="ElementShortName">IQ_count[31:0]</obj_property>
+      <obj_property name="ObjectShortName">IQ_count[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/var/ins_mem" type="array">
+      <obj_property name="ElementShortName">ins_mem[0:43][7:0]</obj_property>
+      <obj_property name="ObjectShortName">ins_mem[0:43][7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/var/data_mem" type="array">
+      <obj_property name="ElementShortName">data_mem[0:119][0:7][31:0]</obj_property>
+      <obj_property name="ObjectShortName">data_mem[0:119][0:7][31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/var/ARF_vector" type="array">
+      <obj_property name="ElementShortName">ARF_vector[0:31][0:31][32:0]</obj_property>
+      <obj_property name="ObjectShortName">ARF_vector[0:31][0:31][32:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/var/ARF_vector_temp" type="array">
+      <obj_property name="ElementShortName">ARF_vector_temp[0:31][0:31][32:0]</obj_property>
+      <obj_property name="ObjectShortName">ARF_vector_temp[0:31][0:31][32:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/var/ARF_scalar" type="array">
+      <obj_property name="ElementShortName">ARF_scalar[0:31][32:0]</obj_property>
+      <obj_property name="ObjectShortName">ARF_scalar[0:31][32:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/var/ARF_s_temp_data" type="array">
+      <obj_property name="ElementShortName">ARF_s_temp_data[0:31][31:0]</obj_property>
+      <obj_property name="ObjectShortName">ARF_s_temp_data[0:31][31:0]</obj_property>
+      <wvobject fp_name="/var/ARF_s_temp_data[0]" type="array">
+         <obj_property name="ElementShortName">[0][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[0][31:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/var/ARF_s_temp_data[1]" type="array">
+         <obj_property name="ElementShortName">[1][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[1][31:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/var/ARF_s_temp_data[2]" type="array">
+         <obj_property name="ElementShortName">[2][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[2][31:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/var/ARF_s_temp_data[3]" type="array">
+         <obj_property name="ElementShortName">[3][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[3][31:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/var/ARF_s_temp_data[4]" type="array">
+         <obj_property name="ElementShortName">[4][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[4][31:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/var/ARF_s_temp_data[5]" type="array">
+         <obj_property name="ElementShortName">[5][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[5][31:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/var/ARF_s_temp_data[6]" type="array">
+         <obj_property name="ElementShortName">[6][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[6][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/var/ARF_s_temp_data[7]" type="array">
+         <obj_property name="ElementShortName">[7][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[7][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/var/ARF_s_temp_data[8]" type="array">
+         <obj_property name="ElementShortName">[8][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[8][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/var/ARF_s_temp_data[9]" type="array">
+         <obj_property name="ElementShortName">[9][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[9][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/var/ARF_s_temp_data[10]" type="array">
+         <obj_property name="ElementShortName">[10][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[10][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/var/ARF_s_temp_data[11]" type="array">
+         <obj_property name="ElementShortName">[11][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[11][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/var/ARF_s_temp_data[12]" type="array">
+         <obj_property name="ElementShortName">[12][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[12][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/var/ARF_s_temp_data[13]" type="array">
+         <obj_property name="ElementShortName">[13][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[13][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/var/ARF_s_temp_data[14]" type="array">
+         <obj_property name="ElementShortName">[14][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[14][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/var/ARF_s_temp_data[15]" type="array">
+         <obj_property name="ElementShortName">[15][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[15][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/var/ARF_s_temp_data[16]" type="array">
+         <obj_property name="ElementShortName">[16][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[16][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/var/ARF_s_temp_data[17]" type="array">
+         <obj_property name="ElementShortName">[17][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[17][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/var/ARF_s_temp_data[18]" type="array">
+         <obj_property name="ElementShortName">[18][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[18][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/var/ARF_s_temp_data[19]" type="array">
+         <obj_property name="ElementShortName">[19][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[19][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/var/ARF_s_temp_data[20]" type="array">
+         <obj_property name="ElementShortName">[20][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[20][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/var/ARF_s_temp_data[21]" type="array">
+         <obj_property name="ElementShortName">[21][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[21][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/var/ARF_s_temp_data[22]" type="array">
+         <obj_property name="ElementShortName">[22][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[22][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/var/ARF_s_temp_data[23]" type="array">
+         <obj_property name="ElementShortName">[23][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[23][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/var/ARF_s_temp_data[24]" type="array">
+         <obj_property name="ElementShortName">[24][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[24][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/var/ARF_s_temp_data[25]" type="array">
+         <obj_property name="ElementShortName">[25][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[25][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/var/ARF_s_temp_data[26]" type="array">
+         <obj_property name="ElementShortName">[26][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[26][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/var/ARF_s_temp_data[27]" type="array">
+         <obj_property name="ElementShortName">[27][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[27][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/var/ARF_s_temp_data[28]" type="array">
+         <obj_property name="ElementShortName">[28][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[28][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/var/ARF_s_temp_data[29]" type="array">
+         <obj_property name="ElementShortName">[29][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[29][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/var/ARF_s_temp_data[30]" type="array">
+         <obj_property name="ElementShortName">[30][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[30][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/var/ARF_s_temp_data[31]" type="array">
+         <obj_property name="ElementShortName">[31][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[31][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/var/ARF_s_temp_data[0]" type="array">
+         <obj_property name="ElementShortName">[0][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[0][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/var/ARF_s_temp_data[1]" type="array">
+         <obj_property name="ElementShortName">[1][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[1][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/var/ARF_s_temp_data[2]" type="array">
+         <obj_property name="ElementShortName">[2][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[2][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/var/ARF_s_temp_data[3]" type="array">
+         <obj_property name="ElementShortName">[3][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[3][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/var/ARF_s_temp_data[4]" type="array">
+         <obj_property name="ElementShortName">[4][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[4][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/var/ARF_s_temp_data[5]" type="array">
+         <obj_property name="ElementShortName">[5][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[5][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/var/ARF_s_temp_data[6]" type="array">
+         <obj_property name="ElementShortName">[6][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[6][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/var/ARF_s_temp_data[7]" type="array">
+         <obj_property name="ElementShortName">[7][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[7][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/var/ARF_s_temp_data[8]" type="array">
+         <obj_property name="ElementShortName">[8][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[8][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/var/ARF_s_temp_data[9]" type="array">
+         <obj_property name="ElementShortName">[9][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[9][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/var/ARF_s_temp_data[10]" type="array">
+         <obj_property name="ElementShortName">[10][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[10][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/var/ARF_s_temp_data[11]" type="array">
+         <obj_property name="ElementShortName">[11][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[11][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/var/ARF_s_temp_data[12]" type="array">
+         <obj_property name="ElementShortName">[12][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[12][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/var/ARF_s_temp_data[13]" type="array">
+         <obj_property name="ElementShortName">[13][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[13][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/var/ARF_s_temp_data[14]" type="array">
+         <obj_property name="ElementShortName">[14][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[14][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/var/ARF_s_temp_data[15]" type="array">
+         <obj_property name="ElementShortName">[15][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[15][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/var/ARF_s_temp_data[16]" type="array">
+         <obj_property name="ElementShortName">[16][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[16][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/var/ARF_s_temp_data[17]" type="array">
+         <obj_property name="ElementShortName">[17][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[17][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/var/ARF_s_temp_data[18]" type="array">
+         <obj_property name="ElementShortName">[18][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[18][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/var/ARF_s_temp_data[19]" type="array">
+         <obj_property name="ElementShortName">[19][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[19][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/var/ARF_s_temp_data[20]" type="array">
+         <obj_property name="ElementShortName">[20][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[20][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/var/ARF_s_temp_data[21]" type="array">
+         <obj_property name="ElementShortName">[21][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[21][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/var/ARF_s_temp_data[22]" type="array">
+         <obj_property name="ElementShortName">[22][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[22][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/var/ARF_s_temp_data[23]" type="array">
+         <obj_property name="ElementShortName">[23][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[23][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/var/ARF_s_temp_data[24]" type="array">
+         <obj_property name="ElementShortName">[24][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[24][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/var/ARF_s_temp_data[25]" type="array">
+         <obj_property name="ElementShortName">[25][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[25][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/var/ARF_s_temp_data[26]" type="array">
+         <obj_property name="ElementShortName">[26][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[26][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/var/ARF_s_temp_data[27]" type="array">
+         <obj_property name="ElementShortName">[27][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[27][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/var/ARF_s_temp_data[28]" type="array">
+         <obj_property name="ElementShortName">[28][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[28][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/var/ARF_s_temp_data[29]" type="array">
+         <obj_property name="ElementShortName">[29][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[29][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/var/ARF_s_temp_data[30]" type="array">
+         <obj_property name="ElementShortName">[30][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[30][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/var/ARF_s_temp_data[31]" type="array">
+         <obj_property name="ElementShortName">[31][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[31][31:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="/var/ARF_s_temp_busy" type="array">
+      <obj_property name="ElementShortName">ARF_s_temp_busy[0:31]</obj_property>
+      <obj_property name="ObjectShortName">ARF_s_temp_busy[0:31]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/var/RS_v_FULL" type="logic">
+      <obj_property name="ElementShortName">RS_v_FULL</obj_property>
+      <obj_property name="ObjectShortName">RS_v_FULL</obj_property>
+   </wvobject>
+   <wvobject fp_name="/var/RS_v" type="array">
+      <obj_property name="ElementShortName">RS_v[0:5][51:0]</obj_property>
+      <obj_property name="ObjectShortName">RS_v[0:5][51:0]</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+   </wvobject>
+   <wvobject fp_name="/var/RS_available" type="array">
+      <obj_property name="ElementShortName">RS_available[2:0]</obj_property>
+      <obj_property name="ObjectShortName">RS_available[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/var/RS_s" type="array">
+      <obj_property name="ElementShortName">RS_s[0:6][35:0]</obj_property>
+      <obj_property name="ObjectShortName">RS_s[0:6][35:0]</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+   </wvobject>
+   <wvobject fp_name="/var/RS_idx" type="array">
+      <obj_property name="ElementShortName">RS_idx[2:0]</obj_property>
+      <obj_property name="ObjectShortName">RS_idx[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/var/RS_s_FULL" type="logic">
+      <obj_property name="ElementShortName">RS_s_FULL</obj_property>
+      <obj_property name="ObjectShortName">RS_s_FULL</obj_property>
+   </wvobject>
+   <wvobject fp_name="/var/LSQ" type="array">
+      <obj_property name="ElementShortName">LSQ[0:7][32:0]</obj_property>
+      <obj_property name="ObjectShortName">LSQ[0:7][32:0]</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+   </wvobject>
+   <wvobject fp_name="/var/LSQ_v_idx" type="array">
+      <obj_property name="ElementShortName">LSQ_v_idx[2:0]</obj_property>
+      <obj_property name="ObjectShortName">LSQ_v_idx[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/var/LSQ_v_full" type="logic">
+      <obj_property name="ElementShortName">LSQ_v_full</obj_property>
+      <obj_property name="ObjectShortName">LSQ_v_full</obj_property>
+   </wvobject>
+   <wvobject fp_name="/var/is_vector" type="logic">
+      <obj_property name="ElementShortName">is_vector</obj_property>
+      <obj_property name="ObjectShortName">is_vector</obj_property>
+   </wvobject>
+   <wvobject fp_name="/var/is_scalar" type="logic">
+      <obj_property name="ElementShortName">is_scalar</obj_property>
+      <obj_property name="ObjectShortName">is_scalar</obj_property>
+   </wvobject>
+   <wvobject fp_name="/var/decoder_busy" type="logic">
+      <obj_property name="ElementShortName">decoder_busy</obj_property>
+      <obj_property name="ObjectShortName">decoder_busy</obj_property>
+   </wvobject>
+   <wvobject fp_name="/var/loopcount" type="array">
+      <obj_property name="ElementShortName">loopcount[3:0]</obj_property>
+      <obj_property name="ObjectShortName">loopcount[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/var/EX_v_busy" type="logic">
+      <obj_property name="ElementShortName">EX_v_busy</obj_property>
+      <obj_property name="ObjectShortName">EX_v_busy</obj_property>
+   </wvobject>
+   <wvobject fp_name="/var/ex_v_store_done" type="logic">
+      <obj_property name="ElementShortName">ex_v_store_done</obj_property>
+      <obj_property name="ObjectShortName">ex_v_store_done</obj_property>
+   </wvobject>
+   <wvobject fp_name="/var/ex_v_counter" type="array">
+      <obj_property name="ElementShortName">ex_v_counter[1:0]</obj_property>
+      <obj_property name="ObjectShortName">ex_v_counter[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/var/ex_v_lanes" type="array">
+      <obj_property name="ElementShortName">ex_v_lanes[2:0]</obj_property>
+      <obj_property name="ObjectShortName">ex_v_lanes[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/var/mem_v_counter" type="array">
+      <obj_property name="ElementShortName">mem_v_counter[1:0]</obj_property>
+      <obj_property name="ObjectShortName">mem_v_counter[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/var/EX_s_busy" type="logic">
+      <obj_property name="ElementShortName">EX_s_busy</obj_property>
+      <obj_property name="ObjectShortName">EX_s_busy</obj_property>
+   </wvobject>
+   <wvobject fp_name="/var/ex_s_bne_target" type="array">
+      <obj_property name="ElementShortName">ex_s_bne_target[5:0]</obj_property>
+      <obj_property name="ObjectShortName">ex_s_bne_target[5:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/var/wb_v_counter" type="array">
+      <obj_property name="ElementShortName">wb_v_counter[1:0]</obj_property>
+      <obj_property name="ObjectShortName">wb_v_counter[1:0]</obj_property>
+   </wvobject>
+</wave_config>
